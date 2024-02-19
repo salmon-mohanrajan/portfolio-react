@@ -1,0 +1,103 @@
+.homeContainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #e9fff3;
+}
+
+.homeNav {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  z-index: 2;
+  background: none;
+  backdrop-filter: blur(10px);
+  padding-left: 90px;
+}
+
+.homeNav h1 span {
+  color: #059669;
+}
+
+.homeList {
+  display: flex;
+  gap: 18px;
+  padding-left: 50px;
+}
+
+.homeList li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.headerContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  z-index: 1;
+}
+
+.headerContainer img {
+  width: 37%;
+  height: auto;
+  margin-bottom: 5.5rem;
+  margin-top: 7.5rem;
+  filter: drop-shadow(0px 10px 40px #86fec4);
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.headerContent h1 {
+  font-size: 72px;
+  color: #000000;
+}
+
+.headerContent h2 {
+  font-size: 30px;
+  width: 35rem;
+  font-weight: 200;
+  color: #334155;
+}
+
+.headerContent p {
+  font-size: 18px;
+  width: 35rem;
+  font-weight: 100;
+  color: #334155;
+}
+
+.socialIcon { 
+  font-size: 22px;
+  color: #e9fff3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 0.8rem;
+  padding-top: 1rem;
+}
+
+.socialIcon i {
+  background-color: #334155;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.socialIcon i:hover{
+  background-color: #000000;
+}
